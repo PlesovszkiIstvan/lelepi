@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sablon</title>
+    <title>Paralelepipedon Térfogat</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Sablon</h1>
+        <h1>Paralelepipedon Térfogat Számító</h1>
+        <div class="mt-3">
+            <label for="sideA" class="form-label">'A' él hossza: </label>
+            <input type="number" name="sideA" id="sideA" class="form-control">
+        </div>
+        <div class="mt-3">
+            <label for="sideB" class="form-label">'B' él hossza: </label>
+            <input type="number" name="sideB" id="sideB" class="form-control">
+        </div>
+        <div class="mt-3">
+            <label for="sideC" class="form-label">'C' él hossza: </label>
+            <input type="number" name="sideC" id="sideC" class="form-control">
+        </div>
+        <div class="mt-3">
+            <button id="calcButton" class="btn btn-primary">Számít</button>
+        </div>
+        <div class="mt-3 p-3" id="resault">
+            <label for="Anwser" class="form-label">A paralelepipedon térfogata:</label>
+            <input type="number" id="Anwser" class="form-control" readonly>
+        </div>
     </div>
     <script src="js/bootstrap.js"></script>
     <script src="app.js"></script>
