@@ -1,6 +1,22 @@
+/*
+* File: style.css
+* Author: Plesovszki István
+* Copyright: 2023, Plesovszki István
+* Group: Szoft I-2 N
+* Date: 2023-03-24
+* Github: https://github.com/PlesovszkiIstvan/
+* Licenc: GNU GPL
+*/
+
+
 .form-control{
     max-width: 40%;
 }
 body{
     background-color: aqua;
+}
+h2{
+    text-align: center;
+    background-color: bisque;
+
 }

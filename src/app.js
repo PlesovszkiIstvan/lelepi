@@ -1,3 +1,13 @@
+/*
+* File: app.js
+* Author: Plesovszki István
+* Copyright: 2023, Plesovszki István
+* Group: Szoft I-2 N
+* Date: 2023-03-24
+* Github: https://github.com/PlesovszkiIstvan/
+* Licenc: GNU GPL
+*/
+
 const aSide = document.querySelector('#sideA');
 const bSide = document.querySelector('#sideB');
 const cSide = document.querySelector('#sideC');
